@@ -1,8 +1,8 @@
 class Chic < Formula
   desc "Small utility to make AMIs"
   homepage "https://github.com/karlvr/chic"
-  url "https://github.com/karlvr/chic/archive/1.4.tar.gz"
-  sha256 "d88162d249dd88e6efec321630a8c361f48979115db62071d306f4aebfdfa43c"
+  url "https://github.com/karlvr/chic/archive/1.5.tar.gz"
+  sha256 "450e3586e3c73d495c572a7ce6cbd46f48d04a86e5ea6611a18b4e967afb35a5"
 
   def install
     inreplace "chic", /^CHIC_LIB_DIR=.*/, "CHIC_LIB_DIR=#{lib}"
