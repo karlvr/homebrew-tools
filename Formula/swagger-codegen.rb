@@ -1,8 +1,8 @@
 class SwaggerCodegen < Formula
   desc "Generation of client and server from Swagger definition"
   homepage "https://swagger.io/swagger-codegen/"
-  url "https://github.com/karlvr/swagger-codegen/archive/cactuslab-3.tar.gz"
-  sha256 "8c9451e8a4d74b3b3475a2953699c05eeed776cc27b69065b5099236bd4902b0"
+  url "https://github.com/karlvr/swagger-codegen/archive/cactuslab-4.tar.gz"
+  sha256 "a0aec8a4c7c7dbedc91529d29ed8e6d44dcba85bbf9fcb40b6da9651dc58170a"
   head "https://github.com/karlvr/swagger-codegen.git"
 
   depends_on :java => "1.7+"
