@@ -7,7 +7,7 @@ Tag the repo that contains the source archive with the new versions, e.g. `1.3.1
 Compute the hash for that release, e.g.
 
 ```shell
-curl -L https://github.com/karlvr/punch/archive/1.4.tar.gz | shasum -a 256
+curl -L https://github.com/karlvr/punch/archive/1.5.tar.gz | shasum -a 256
 ```
 
 Update the formula ruby file with the new archive URL and checksum.
