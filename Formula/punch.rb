@@ -1,8 +1,8 @@
 class Punch < Formula
   desc "A script to bootstrap, query and control AWS EC2 instances."
   homepage "https://github.com/karlvr/punch"
-  url "https://github.com/karlvr/punch/archive/2.0.tar.gz"
-  sha256 "0a9e4d1e4edc9494a11a76811eb58a3d5c8f079d02c342b8fe3119954b3539e8"
+  url "https://github.com/karlvr/punch/archive/2.1.tar.gz"
+  sha256 "cf0209d4fff99fd842eea62484cdf74b1a43605a0ebe34b60ccd5e4d52a8bd9a"
 
   def install
     inreplace "punch", /^PUNCH_LIB_DIR=.*/, "PUNCH_LIB_DIR=#{libexec}"
